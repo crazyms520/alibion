@@ -55,7 +55,6 @@ body::selection { color: white; background-color: #78baff; }
 .s2 .notice { display: flex; justify-content: center; align-items: center; margin-right: 4.5rem; }
 .s2 .notice > span, .s2 .notice p { margin: 0; font-size: 14px; color: red; }
 
-.s3 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s3 .title { margin: 0 auto; font-family: 'Noto Serif TC', serif; }
 .s3 .title > .main-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }
 .s3 .title > .main-t > h2 { font-size: 18px; margin: 0; }
