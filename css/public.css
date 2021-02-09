@@ -13,11 +13,10 @@ body::selection { color: white; background-color: #78baff; }
 
 .container { position: relative; padding: 2rem 10px; margin: 0 auto; width: 100%; height: 100%; max-width: 320px; }
 
-.s-box-1 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
+.s-box-1 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 
-.s-box-2 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
+.s-box-2 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 
-.s1 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s1 .title { margin: 0 auto; width: 230px; font-family: 'Noto Serif TC', serif; }
 .s1 .title > .main-t { margin-bottom: 0; }
 .s1 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }
@@ -46,7 +45,6 @@ body::selection { color: white; background-color: #78baff; }
 @media screen and (max-width: 320px) and (min-width: 0) { .s1 .i-img .r-img { top: .5rem; } }
 .s1 .i-img img { width: auto; height: auto; max-width: 100%; max-height: 100%; }
 
-.s2 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s2 .input-box { display: flex; align-items: center; margin-bottom: 2rem; width: 100%; }
 .s2 .input-box:nth-child(5) { margin-bottom: 1rem; }
 .s2 .input-box.radio { display: flex; justify-content: center; align-items: center; margin-top: .5rem; }
@@ -66,7 +64,6 @@ body::selection { color: white; background-color: #78baff; }
 .s3 .title > .main-t span.right { right: 0; }
 .s3 .policy-content > p { font-size: 14px; line-height: 1.8; letter-spacing: 1px; text-align: left; color: #4e4e51; }
 
-.s4 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s4 .title { margin: 0 auto; font-family: 'Noto Serif TC', serif; }
 .s4 .title .q-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }
 .s4 .title .q-t > h3 { margin: 0; }
@@ -82,7 +79,6 @@ body::selection { color: white; background-color: #78baff; }
 .s4 .question .answer ul li img { width: 40px; height: 40px; }
 .s4 .question .answer ul li p { margin-top: .5rem; margin-left: 1rem; text-align: left; }
 
-.s5 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s5 .title { margin: 0 auto; width: 230px; font-family: 'Noto Serif TC', serif; }
 .s5 .title > .main-t { margin-bottom: 0; }
 .s5 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }
@@ -101,7 +97,6 @@ body::selection { color: white; background-color: #78baff; }
 .s5 .content > figure .notice { font-size: 14px; }
 .s5 .content > figure .sub-notice { width: 100%; font-size: 10px; }
 
-.s6 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s6 .title { margin: 0 auto; width: 230px; font-family: 'Noto Serif TC', serif; }
 .s6 .title > .main-t { margin-bottom: 0; }
 .s6 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }
@@ -116,7 +111,6 @@ body::selection { color: white; background-color: #78baff; }
 .s6 .content > h2.m-4 { margin: 4rem 0; }
 .s6 .content > p { margin-top: 4rem; font-size: 20px; text-align: center; color: #566b8b; }
 
-.s7 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-size: contain; height: 100vh; }
 .s7 .title { margin: 0 auto; width: 230px; font-family: 'Noto Serif TC', serif; }
 .s7 .title > .main-t { margin-bottom: 0; }
 .s7 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Sans TC', sans-serif; font-size: 16px; }

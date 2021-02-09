@@ -66,22 +66,19 @@ body {
 .s-box-1 {
 	background-image: url(../img/index_bg@2x.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	height: 100vh;	
 }
 
 .s-box-2 {
 	background-image: url(../img/qa_bg@2x.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	height: 100vh;
 }
 
 .s1 {
-	background-image: url(../img/index_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
+	
 
 	.title {
 		margin: 0 auto;
@@ -238,11 +235,6 @@ body {
 }
 
 .s2 {
-	background-image: url(../img/index_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
-
 	.input-box {
 		display: flex;
 		align-items: center;
@@ -353,10 +345,6 @@ body {
 }
 
 .s4 {
-	background-image: url(../img/qa_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -447,10 +435,6 @@ body {
 }
 
 .s5 {
-	background-image: url(../img/qa_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -557,10 +541,6 @@ body {
 }
 
 .s6 {
-	background-image: url(../img/qa_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -650,11 +630,7 @@ body {
 }
 
 .s7 {
-	background-image: url(../img/qa_bg@2x.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 100vh;
-
+	
 	.title {
 		margin: 0 auto;
 		width: 230px;
