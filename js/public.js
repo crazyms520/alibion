@@ -6,4 +6,27 @@
  */
  
 $(function() {
+    
+    $('.s1').find('.i-img').addClass('show');
+
+    $('.answer ul li').on('click', function() {
+        let ans = $(this).attr('class');
+        
+        $('.answer ul li').each(function() {
+            $(this).find('img').attr('src', '../img/popo.png');
+        })
+
+        if(ans) {
+            $(this).find('img').attr('src', '../img/smile.svg');
+        } else {
+            $(this).find('img').attr('src', '../img/sad.svg'); 
+        }
+    })
+
+    $('.qa-btn').on('click', function(){
+        let href = $(this).find('a').attr('data-href');
+        if($('[src$="smile.svg"]').length > 0) {
+            $(this).find('a').attr('href', href);
+        }
+    });
 });
