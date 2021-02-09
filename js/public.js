@@ -13,13 +13,13 @@ $(function() {
         let ans = $(this).attr('class');
         
         $('.answer ul li').each(function() {
-            $(this).find('img').attr('src', '../img/popo.png');
+            $(this).find('img').attr('src', 'img/popo.png');
         })
 
         if(ans) {
-            $(this).find('img').attr('src', '../img/smile.svg');
+            $(this).find('img').attr('src', 'img/smile.svg');
         } else {
-            $(this).find('img').attr('src', '../img/sad.svg'); 
+            $(this).find('img').attr('src', 'img/sad.svg'); 
         }
     })
 
