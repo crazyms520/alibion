@@ -56,7 +56,7 @@ body {
 
 .container {
 	position: relative;
-	padding: 2rem 10px;
+	padding: 2rem 0;
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
@@ -82,23 +82,26 @@ body {
 
 	.title {
 		margin: 0 auto;
-		width: 230px;
+		width: 285px;
 		font-family: 'Noto Serif TC', serif;
 
 		> .main-t {
 			margin-bottom: 0;
+			font-size: 26px;
+			letter-spacing: 3px;
 		}
 		
 		> .sub-t {
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			font-family: 'Noto Sans TC', sans-serif;
-			font-size: 16px;
+			font-family: 'Noto Serif TC', sans-serif;
+			font-size: 18px;
 
 			> h3 {
 				margin: 0;
 				font-weight: normal;
+				letter-spacing: 3px;
 			}
 
 			span {
@@ -118,7 +121,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 
@@ -133,7 +136,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 			}
@@ -257,7 +260,11 @@ body {
 			}	
 
 			span {
-				margin-right: 4.5rem;					
+				margin-right: 4.5rem;			
+
+				a {
+					color: #008bff;
+				}		
 			}
 		}
 		
@@ -295,6 +302,12 @@ body {
 
 .s3 {
 
+	.container {
+		.logo {
+			margin: 18px 0 10px 0;
+		}
+	}
+
 	.title {
 		margin: 0 auto;
 		font-family: 'Noto Serif TC', serif;
@@ -307,7 +320,7 @@ body {
 			font-size: 16px;
 
 			> h2 {
-				font-size: 18px;
+				font-size: 26px !important;
 				margin: 0;
 			}
 
@@ -329,12 +342,16 @@ body {
 	}
 
 	.policy-content {
+		background-color: rgba(255, 255, 255, .5);
+
 		> p {
-			font-size: 14px;
-			line-height: 1.8;
+			font-size: 16px;
+			line-height: 1.5;
 			letter-spacing: 1px;
+			font-weight: thin;
 			text-align: left;
 			color: rgba(78, 78, 81, 1.00);
+			padding: 10px;
 		}
 		
 	}
@@ -345,12 +362,16 @@ body {
 	.title {
 		margin: 0 auto;
 		font-family: 'Noto Serif TC', serif;
+
+		&.notFont {
+			font-family: 'Noto Sans TC', sans-serif;
+		}
 		
 		.q-t {
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			font-family: 'Noto Sans TC', sans-serif;
+			font-family: 'Noto Serif TC', serif;
 			font-size: 16px;
 
 			> h3 {
@@ -384,10 +405,10 @@ body {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				margin-right: 1rem;
+				// margin-right: 1rem;
 				width: 50px;
 				height: 50px;
-				background-color: rgb(86, 107, 139);
+				background-color: #5883c5;
 				border-radius: 50%;
 				font-size: 20px;
 				color: white;
@@ -395,10 +416,11 @@ body {
 
 			> .title {
 				width: calc(100% - 50px);
-				font-size: 20px;
+				font-size: 22px;
 				font-weight: bold;
 				color: rgba(88, 131, 197, 1.00);
 				text-align: left;
+				padding-left: 10px;
 			}
 		}
 
@@ -420,9 +442,10 @@ body {
 					}
 
 					p {
-						margin-top: .5rem;
+						margin-top: .2rem;
 						margin-left: 1rem;
 						text-align: left;
+						font-size: 20px;
 					}
 				}
 			}
@@ -434,23 +457,26 @@ body {
 
 	.title {
 		margin: 0 auto;
-		width: 230px;
+		width: 285px;
 		font-family: 'Noto Serif TC', serif;
 
 		> .main-t {
 			margin-bottom: 0;
+			font-size: 26px;
+			letter-spacing: 3px;
 		}
 		
 		> .sub-t {
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			font-family: 'Noto Sans TC', sans-serif;
-			font-size: 16px;
+			font-family: 'Noto Serif TC', sans-serif;
+			font-size: 18px;
 
 			> h3 {
 				margin: 0;
 				font-weight: normal;
+				letter-spacing: 3px;
 			}
 
 			span {
@@ -470,7 +496,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 
@@ -485,7 +511,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 			}
@@ -497,10 +523,11 @@ body {
 	.content {
 		
 		> h2 {
-			color: rgba(86, 107, 139, 1.00);
+			color: #4574ba;
+			letter-spacing: 3px;
 			
 			> span {
-				color: rgba(98, 185, 189, 1.00);
+				color: #ff590f;
 			}
 
 			&.mt-0 {
@@ -540,23 +567,26 @@ body {
 
 	.title {
 		margin: 0 auto;
-		width: 230px;
+		width: 285px;
 		font-family: 'Noto Serif TC', serif;
 
 		> .main-t {
 			margin-bottom: 0;
+			font-size: 26px;
+			letter-spacing: 3px;
 		}
 		
 		> .sub-t {
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			font-family: 'Noto Sans TC', sans-serif;
-			font-size: 16px;
+			font-family: 'Noto Serif TC', sans-serif;
+			font-size: 18px;
 
 			> h3 {
 				margin: 0;
 				font-weight: normal;
+				letter-spacing: 3px;
 			}
 
 			span {
@@ -576,7 +606,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 
@@ -591,7 +621,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 			}
@@ -603,7 +633,7 @@ body {
 	.content {
 		
 		> h2 {
-			color: rgba(86, 107, 139, 1.00);
+			color: #4574ba;
 			
 			> span {
 				display: block;
@@ -620,7 +650,7 @@ body {
 			margin-top: 4rem;
 			font-size: 20px;
 			text-align: center;
-			color: rgba(86, 107, 139, 1.00);
+			color: #4574ba;
 		}
 	}
 }
@@ -629,23 +659,26 @@ body {
 
 	.title {
 		margin: 0 auto;
-		width: 230px;
+		width: 285px;
 		font-family: 'Noto Serif TC', serif;
 
 		> .main-t {
 			margin-bottom: 0;
+			font-size: 26px;
+			letter-spacing: 3px;
 		}
 		
 		> .sub-t {
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			font-family: 'Noto Sans TC', sans-serif;
-			font-size: 16px;
+			font-family: 'Noto Serif TC', sans-serif;
+			font-size: 18px;
 
 			> h3 {
 				margin: 0;
 				font-weight: normal;
+				letter-spacing: 3px;
 			}
 
 			span {
@@ -665,7 +698,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 
@@ -680,7 +713,7 @@ body {
 						width: 8px;
 						height: 8px;
 						border-radius: 50%;
-						background-color: #000;
+						background-color: rgba(90, 90, 90, 1.00);
 					}
 				}
 			}
@@ -693,7 +726,7 @@ body {
 		
 		> h2 {
 
-			color: rgba(86, 107, 139, 1.00);
+			color: #4574ba;
 			
 			> span {
 				display: block;
@@ -717,7 +750,7 @@ body {
 		}
 
 		.contact-us {
-			color: rgba(86, 107, 139, 1.00);
+			color: #4574ba;
 			text-align: center;
 
 			p {
