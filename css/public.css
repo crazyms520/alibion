@@ -53,6 +53,7 @@ body::selection { color: white; background-color: #78baff; }
 .s2 .input-box.radio span a { color: #008bff; }
 .s2 .input-box label { color: #4d6790; }
 .s2 .input-box input, .s2 .input-box select { padding: .5rem; width: 80%; border: 1px solid #6a84ac; border-radius: 5px; color: #c2c2c2; opacity: 1; }
+.s2 .input-box select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 .s2 .notice { display: flex; justify-content: center; align-items: center; margin-right: 4.5rem; }
 .s2 .notice > span, .s2 .notice p { margin: 0; font-size: 14px; color: red; }
 
