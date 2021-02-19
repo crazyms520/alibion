@@ -53,8 +53,9 @@ body::selection { color: white; background-color: #78baff; }
 .s2 .input-box.radio span a { color: #008bff; }
 .s2 .input-box label { color: #4d6790; }
 .s2 .input-box input, .s2 .input-box select { padding: .5rem; width: 80%; border: 1px solid #6a84ac; border-radius: 5px; color: #c2c2c2; opacity: 1; }
-.s2 .input-box input[type="date"]::-webkit-inner-spin-button, .s2 .input-box input[type="date"]::-webkit-calendar-picker-indicator { display: none; -webkit-appearance: none; padding: .5rem; }
-.s2 .input-box select, .s2 .input-box input[type="date"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>"); background-repeat: no-repeat; background-position-x: 100%; background-position-y: 5px; }
+.s2 .input-box select, .s2 .input-box input[type="date"] { -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>"); background-repeat: no-repeat; background-position-x: 100%; background-position-y: 3px; }
+.s2 .input-box input[type="date"] { padding: 1rem; max-height: 33px; }
+.s2 .input-box input[type="date"]::-webkit-inner-spin-button, .s2 .input-box input[type="date"]::-webkit-calendar-picker-indicator { display: none; -webkit-appearance: none; }
 .s2 .notice { display: flex; justify-content: center; align-items: center; margin-right: 4.5rem; }
 .s2 .notice > span, .s2 .notice p { margin: 0; font-size: 14px; color: red; }
 
