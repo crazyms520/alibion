@@ -284,12 +284,12 @@ body {
 
 		input[type="date"]::-webkit-inner-spin-button, 
 		input[type="date"]::-webkit-calendar-picker-indicator {
-			// display: none;
-			// -webkit-appearance: none;
-			// padding: .5rem;
+			display: none;
+			-webkit-appearance: none;
+			padding: .5rem;
 		}
 
-		select {
+		select ,input[type="date"] {
 			-webkit-appearance: none;
 			-moz-appearance: none;
 			appearance: none;
