@@ -15,7 +15,7 @@ body::selection { color: white; background-color: #78baff; }
 
 .s-box-1 { background-image: url(../img/index_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 
-.s-box-2 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; height: 812px; }
+.s-box-2 { background-image: url(../img/qa_bg@2x.png); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; background-color: #c1f0fe; height: 812px; }
 
 .s1 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }
 .s1 .title > .main-t { margin-bottom: 0; font-size: 26px; letter-spacing: 3px; }
@@ -119,6 +119,8 @@ body::selection { color: white; background-color: #78baff; }
 .s6 .content > h2 > span { display: block; color: #000; }
 .s6 .content > h2.m-4 { margin: 4rem 0; }
 .s6 .content > p { margin-top: 4rem; font-size: 20px; text-align: center; color: #4574ba; }
+.s6 .btn > a:first-child { margin-right: 5px; }
+.s6 .btn > a:last-child { margin-left: 5px; }
 
 .s7 { background-image: url(../img/envoy_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 .s7 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }

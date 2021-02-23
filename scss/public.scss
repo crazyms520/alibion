@@ -75,14 +75,13 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100% 100%;
-    // width: 100vw;
+	background-color: rgba(193, 240, 254, 1.00);
 	height: 812px;
+    // width: 100vw;
 	// min-height: 812px;
 }
 
 .s1 {
-	
-
 	.title {
 		margin: 0 auto;
 		width: 285px;
@@ -713,6 +712,20 @@ body {
 			text-align: center;
 			color: #4574ba;
 		}
+	}
+
+	.btn {
+		> a {
+
+			&:first-child {
+				margin-right: 5px;
+			}
+			&:last-child {
+				margin-left: 5px;
+			}
+			
+		}
+		
 	}
 }
 
