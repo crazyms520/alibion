@@ -71,11 +71,13 @@ body {
 }
 
 .s-box-2 {
-	background-image: url(../img/qa_bg.png);
+	background-image: url(../img/qa_bg@2x.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	height: 100vh;
+	background-size: 100% 100%;
+    // width: 100vw;
+	height: 812px;
+	// min-height: 812px;
 }
 
 .s1 {
@@ -576,7 +578,8 @@ body {
 			letter-spacing: 3px;
 			
 			> span {
-				color: #ff590f;
+				// color: #ff590f;
+				color: rgba(170, 131, 84, 1);
 			}
 
 			&.mt-0 {
