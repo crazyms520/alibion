@@ -17,15 +17,15 @@ $(function() {
         })
 
         if(ans) {
-            $(this).find('img').attr('src', 'img/smile.svg');
+            $(this).find('img').attr('src', 'img/accepted.svg');
         } else {
-            $(this).find('img').attr('src', 'img/sad.svg'); 
+            $(this).find('img').attr('src', 'img/denied.svg'); 
         }
     })
 
     $('.qa-btn').on('click', function(){
         let href = $(this).find('a').attr('data-href');
-        if($('[src$="smile.svg"]').length > 0) {
+        if($('[src$="accepted.svg"]').length > 0) {
             $(this).find('a').attr('href', href);
         }
     });

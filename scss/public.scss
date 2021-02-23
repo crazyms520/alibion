@@ -391,25 +391,49 @@ body {
 			width: 100%;
 			font-family: 'Noto Serif TC', serif;
 			font-size: 16px;
-
-			> h3 {
-				margin: 0;
-			}
-
-			span {
-				position: absolute;
-				top: calc(50% - .5px);
-				width: 20%;
-				border-top: 1px solid #000;	
-
-				&.left {
-					left: 0;
+			
+			> h2 {
+				margin-top: 0;
+				margin-left: 2rem;
+				font-size: 30px;
+				font-weight: 900;
+				line-height: 1.83;
+				  // letter-spacing: 6.34px;
+				  
+				span.dot {
+					position: relative;
+					
+					&:after {
+						content: '';
+						position: absolute;
+						bottom: -8px;
+						left: calc(50% - 2.5px);
+						width: 5px;
+						height: 5px;
+						border-radius: 50%;
+						background-color: rgba(172, 119, 55, 1);
+					}
 				}
 
-				&.right {
-					right: 0;
+				span.sub-text {
+					font-weight: 400;
 				}
 			}
+			
+			// span {
+			// 	position: absolute;
+			// 	top: calc(50% - .5px);
+			// 	width: 20%;
+			// 	border-top: 1px solid #000;	
+
+			// 	&.left {
+			// 		left: 0;
+			// 	}
+
+			// 	&.right {
+			// 		right: 0;
+			// 	}
+			// }
 		}
 	}
 
@@ -418,15 +442,16 @@ body {
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
+			margin-left: 10px;
 
 			.s-no {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				// margin-right: 1rem;
 				width: 50px;
 				height: 50px;
-				background-color: #5883c5;
+				// background-color: #5883c5;
+				background-color: rgba(206, 165, 116, 1);
 				border-radius: 50%;
 				font-size: 20px;
 				color: white;
@@ -434,9 +459,10 @@ body {
 
 			> .title {
 				width: calc(100% - 50px);
-				font-size: 22px;
+				font-size: 20px;
 				font-weight: bold;
-				color: rgba(88, 131, 197, 1.00);
+				// color: rgba(88, 131, 197, 1.00);
+				color: rgba(170, 131, 84, 1);
 				text-align: left;
 				padding-left: 10px;
 			}
@@ -472,6 +498,10 @@ body {
 }
 
 .s5 {
+	background-image: url(../img/envoy_bg@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -576,12 +606,21 @@ body {
 			.sub-notice {
 				width: 100%;
 				font-size: 10px;
+
+				> sup {
+					display: inline-block;
+				}
 			}
 		}
 	}
 }
 
 .s6 {
+
+	background-image: url(../img/envoy_bg@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -674,6 +713,10 @@ body {
 }
 
 .s7 {
+	background-image: url(../img/envoy_bg@2x.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 
 	.title {
 		margin: 0 auto;
@@ -772,6 +815,7 @@ body {
 			text-align: center;
 
 			p {
+				font-weight: 600;
 				&:first-child {
 					margin-bottom: 0;
 				}

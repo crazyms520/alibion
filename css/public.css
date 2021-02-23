@@ -72,19 +72,20 @@ body::selection { color: white; background-color: #78baff; }
 .s4 .title { margin: 0 auto; font-family: 'Noto Serif TC', serif; }
 .s4 .title.notFont { font-family: 'Noto Sans TC', sans-serif; }
 .s4 .title .q-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', serif; font-size: 16px; }
-.s4 .title .q-t > h3 { margin: 0; }
-.s4 .title .q-t span { position: absolute; top: calc(50% - .5px); width: 20%; border-top: 1px solid #000; }
-.s4 .title .q-t span.left { left: 0; }
-.s4 .title .q-t span.right { right: 0; }
-.s4 .question .subject { display: flex; justify-content: flex-start; align-items: center; }
-.s4 .question .subject .s-no { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #5883c5; border-radius: 50%; font-size: 20px; color: white; }
-.s4 .question .subject > .title { width: calc(100% - 50px); font-size: 22px; font-weight: bold; color: #5883c5; text-align: left; padding-left: 10px; }
+.s4 .title .q-t > h2 { margin-top: 0; margin-left: 2rem; font-size: 30px; font-weight: 900; line-height: 1.83; }
+.s4 .title .q-t > h2 span.dot { position: relative; }
+.s4 .title .q-t > h2 span.dot:after { content: ''; position: absolute; bottom: -8px; left: calc(50% - 2.5px); width: 5px; height: 5px; border-radius: 50%; background-color: #ac7737; }
+.s4 .title .q-t > h2 span.sub-text { font-weight: 400; }
+.s4 .question .subject { display: flex; justify-content: flex-start; align-items: center; margin-left: 10px; }
+.s4 .question .subject .s-no { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #cea574; border-radius: 50%; font-size: 20px; color: white; }
+.s4 .question .subject > .title { width: calc(100% - 50px); font-size: 20px; font-weight: bold; color: #aa8354; text-align: left; padding-left: 10px; }
 .s4 .question .answer { margin-top: 1.5rem; }
 .s4 .question .answer ul { padding: 0; list-style: none; }
 .s4 .question .answer ul li { display: flex; align-items: flex-start; margin-bottom: .5rem; }
 .s4 .question .answer ul li img { width: 40px; height: 40px; }
 .s4 .question .answer ul li p { margin-top: .2rem; margin-left: 1rem; text-align: left; font-size: 20px; }
 
+.s5 { background-image: url(../img/envoy_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 .s5 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }
 .s5 .title > .main-t { margin-bottom: 0; font-size: 26px; letter-spacing: 3px; }
 .s5 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', sans-serif; font-size: 18px; }
@@ -102,7 +103,9 @@ body::selection { color: white; background-color: #78baff; }
 .s5 .content > figure img { width: auto; height: auto; max-width: 100%; max-height: 100%; }
 .s5 .content > figure .notice { font-size: 14px; }
 .s5 .content > figure .sub-notice { width: 100%; font-size: 10px; }
+.s5 .content > figure .sub-notice > sup { display: inline-block; }
 
+.s6 { background-image: url(../img/envoy_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 .s6 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }
 .s6 .title > .main-t { margin-bottom: 0; font-size: 26px; letter-spacing: 3px; }
 .s6 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', sans-serif; font-size: 18px; }
@@ -117,6 +120,7 @@ body::selection { color: white; background-color: #78baff; }
 .s6 .content > h2.m-4 { margin: 4rem 0; }
 .s6 .content > p { margin-top: 4rem; font-size: 20px; text-align: center; color: #4574ba; }
 
+.s7 { background-image: url(../img/envoy_bg@2x.png); background-repeat: no-repeat; background-size: cover; height: 100vh; }
 .s7 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }
 .s7 .title > .main-t { margin-bottom: 0; font-size: 26px; letter-spacing: 3px; }
 .s7 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', sans-serif; font-size: 18px; }
@@ -132,5 +136,6 @@ body::selection { color: white; background-color: #78baff; }
 .s7 .content > h2 .crown { margin-right: 7rem; }
 .s7 .content > p { margin: 4rem 0; font-size: 16px; text-align: center; color: #000; }
 .s7 .content .contact-us { color: #4574ba; text-align: center; }
+.s7 .content .contact-us p { font-weight: 600; }
 .s7 .content .contact-us p:first-child { margin-bottom: 0; }
 .s7 .content .contact-us p:last-child { margin-top: 0; }
