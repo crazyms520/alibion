@@ -6,6 +6,9 @@
 //
 
 @import "Ginkgo";
+html {
+	min-height: 100vh;
+}
 
 body {
 	position: relative;
