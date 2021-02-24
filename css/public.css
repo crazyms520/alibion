@@ -22,7 +22,7 @@ body::selection { color: white; background-color: #78baff; }
 .s1 .title { margin: 0 auto; width: 285px; font-family: 'Noto Serif TC', serif; }
 .s1 .title > .main-t { margin-bottom: 0; font-size: 26px; letter-spacing: 3px; }
 .s1 .title > .sub-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', sans-serif; font-size: 18px; }
-.s1 .title > .sub-t > h3 { margin: 0; font-weight: normal; letter-spacing: 3px; }
+.s1 .title > .sub-t > h3 { margin: 0; letter-spacing: 3px; }
 .s1 .title > .sub-t > span { position: absolute; top: calc(50% - .5px); width: 18%; border-top: 1px solid #000; }
 .s1 .title > .sub-t > span.left { left: 0; }
 .s1 .title > .sub-t > span.left:after { content: ''; position: absolute; top: calc(50% - 4px); right: 0; width: 8px; height: 8px; border-radius: 50%; background-color: #5a5a5a; }
@@ -74,10 +74,10 @@ body::selection { color: white; background-color: #78baff; }
 .s4 .title { margin: 0 auto; font-family: 'Noto Serif TC', serif; }
 .s4 .title.notFont { font-family: 'Noto Sans TC', sans-serif; }
 .s4 .title .q-t { position: relative; display: inline-block; width: 100%; font-family: 'Noto Serif TC', serif; font-size: 16px; }
-.s4 .title .q-t > h2 { margin-top: 0; margin-left: 2rem; font-size: 30px; font-weight: 900; line-height: 1.83; }
+.s4 .title .q-t > h2 { margin-top: 0; margin-left: 1rem; font-size: 30px; font-weight: 900; line-height: 1.83; }
 .s4 .title .q-t > h2 span.dot { position: relative; }
 .s4 .title .q-t > h2 span.dot:after { content: ''; position: absolute; bottom: -8px; left: calc(50% - 2.5px); width: 5px; height: 5px; border-radius: 50%; background-color: #ac7737; }
-.s4 .title .q-t > h2 span.sub-text { font-weight: 400; }
+.s4 .title .q-t > h2 span.sub-text { font-weight: 900; }
 .s4 .question .subject { display: flex; justify-content: flex-start; align-items: center; margin-left: 10px; }
 .s4 .question .subject .s-no { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #cea574; border-radius: 50%; font-size: 20px; color: white; }
 .s4 .question .subject > .title { width: calc(100% - 50px); font-size: 20px; font-weight: bold; color: #aa8354; text-align: left; padding-left: 10px; }
